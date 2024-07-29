@@ -249,13 +249,13 @@ namespace EngineeringCalculator
                             case Key.OemMinus:
                                 this.input += "-";
                                 break;
-                            case Key.Oem2: // For division symbol
+                            case Key.Oem2:
                                 this.input += "/";
                                 break;
-                            case Key.Oem1: // For multiplication symbol (*)
+                            case Key.Oem1:
                                 this.input += "*";
                                 break;
-                            case Key.Oem6: // For exponentiation symbol (^)
+                            case Key.Oem6:
                                 this.input += "^";
                                 break;
                         }
